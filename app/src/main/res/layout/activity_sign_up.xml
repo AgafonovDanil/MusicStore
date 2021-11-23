@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yang"
+    tools:context="com.example.musicStore.SignUpActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="10dp">
+
+    <ImageView
+        android:id="@+id/launch"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/musiclaunch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="366dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="96dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="366dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="164dp"
+        android:hint="Пароль"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:background="@color/but"
+        android:text="Войти"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch" />
+
+    <ImageView
+        android:id="@+id/choiceOpen"
+        android:layout_width="284dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch"
+        app:srcCompat="@drawable/choiceopen" />
+
+    <TextView
+        android:id="@+id/textRegistr"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="460dp"
+        android:text="Нет аккаунта?"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch" />
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="460dp"
+        android:text="Зарегистрироваться"
+        android:textColor="@color/blue"
+        android:onClick="signInOn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/launch" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
