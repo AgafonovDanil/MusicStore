@@ -7,6 +7,7 @@ import android.util.Patterns
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 
+
 class SignInActivity : AppCompatActivity() {
     lateinit var name: EditText
     lateinit var phone: EditText

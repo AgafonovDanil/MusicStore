@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.musicStore" >
         <activity
+            android:name=".RetApi"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
